@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,9 +7,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">K</span>
-            </div>
+            <Image
+              src="/kinsu_logo.png"
+              alt="Kinsu Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
             <span className="text-xl font-bold text-white">Kinsu</span>
           </div>
 

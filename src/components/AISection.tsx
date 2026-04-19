@@ -123,8 +123,8 @@ export default function AISection() {
                   </div>
 
                   <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full gradient-bg flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">K</span>
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full overflow-hidden">
+                      <img src="/kinsu_logo.png" alt="Kinsu" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 bg-teal-50 rounded-2xl rounded-tl-none p-3">
                       <p className="text-sm text-gray-700">
